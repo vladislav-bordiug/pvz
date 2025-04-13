@@ -2,11 +2,11 @@ package rest
 
 import (
 	"encoding/json"
-	"github.com/sirupsen/logrus"
 	"net/http"
 
 	"github.com/google/uuid"
 	"github.com/gorilla/mux"
+	"github.com/sirupsen/logrus"
 
 	"pvz/internal/contextkeys"
 	"pvz/internal/metrics"

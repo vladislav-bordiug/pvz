@@ -1,12 +1,12 @@
 package app
 
 import (
-	"github.com/sirupsen/logrus"
 	"net"
 	"net/http"
 	"time"
 
 	"github.com/gorilla/mux"
+	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 

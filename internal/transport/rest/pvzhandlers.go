@@ -2,8 +2,9 @@ package rest
 
 import (
 	"encoding/json"
-	"github.com/sirupsen/logrus"
 	"net/http"
+
+	"github.com/sirupsen/logrus"
 
 	"pvz/internal/contextkeys"
 	"pvz/internal/metrics"
