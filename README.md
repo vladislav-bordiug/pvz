@@ -4,6 +4,10 @@
 
 ```docker-compose up```
 
+REST API реализовано в соответствии с [swagger](docs/swagger.yaml).
+
+gRPC метод реализован в соответствии с [pvz](docs/pvz.proto).
+
 # Тесты
 
 Все тесты успешно выполняются, у unit-тестов покрытие 90%+:
