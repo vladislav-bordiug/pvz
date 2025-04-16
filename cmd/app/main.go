@@ -3,7 +3,6 @@ package main
 import (
 	"context"
 	"fmt"
-	"log"
 	"os"
 	"strings"
 
@@ -42,7 +41,7 @@ func main() {
 	logrus.Infof("Установлен уровень логирования: %s", level.String())
 
 	if dbHost == "" || dbPort == "" || dbUser == "" || dbPassword == "" || dbName == "" || serverPort == "" || secret == "" || grpcPort == "" || prometheusPort == "" {
-		log.Fatal("Не все переменные окружения заданы")
+		logrus.Fatal("Не все переменные окружения заданы")
 	}
 
 	jwtSecret := []byte(secret)
